@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Tempo Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-inicial.png" alt="">
+            <p>Você é um arqueólogo que descobriu um templo antigo.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o tempo imendiatamente!</button>
+            <button class="btn-proximo" data-proximo="2">Estudar os textos antigos para endenter melhor o templo.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Dentro do grande templo é destacável a presença misteriosas de duas portas.</p>
+            <button class="btn-proximo" data-proximo="3">Abrir a primeira porta</button>
+            <button class="btn-proximo" data-proximo="4">Abrir a segunda porta</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você encontrou um quadro antigo desenhado em argila. Um horror, grandes criatura e monstros. Você pensa se ainda vale apena continuar explorando o aquele templo macabro. </p>
+            <button class="btn-proximo" data-proximo="5">Ir embora imendiatamente</button>
+            <button class="btn-proximo" data-proximo="6">Sem medo, continuar explorando</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você se depara com um cenario aterroziante, no fundo do quarto uma criatura se manifesta diante a sua frente</p>
+            <button class="btn-proximo" data-proximo="7">Tenta fugir mais rapido possivel, desse templo misterioso.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/passo-4.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Um cenario calmo, e silensioso com uma prateleira cheia de livros.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você vai embora, tramautizado com aquela cena</p>
+            <button class="btn-proximo" data-proximo="7">Tenta fugir mais rapido possivel, desse templo misterioso.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o templo, você encontra uma caverna escondida, mas ela leva a um quarto sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Você vai embora e sente que não deveria ficar nesse lugar.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Tentando fugir do templo as criaturas persegue você, por sorte elas são lentas. Você encontra duas direções.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Indo embora do templo você encontra a saída.</p>
+            <button class="btn-proximo" data-proximo="7">tentando fugir</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a porta para saída</p>
+            <button class="btn-proximo" data-proximo="11">Ir embora</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma área fechada e escura. Apesar de não consequir enxerga você sente que é seu fim.</p>
+            <button class="btn-proximo" data-proximo="12">Aceita seu fim.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/passo-11.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você consegue ir embora e fica tramautizado com aqueles desenhos em argila naquele misterioso templo.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>As criaturas devoram você. Para as pessoas, você simplesmente desaparece misteosamente pela tentaiva de exploração do Templo.</p>
+            <button class="btn-proximo" data-proximo="11">Ir embora</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
